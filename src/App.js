@@ -11,6 +11,23 @@ class App extends Component {
           <p>
             Pasi Hanhijärvi
           </p>
+          <div class="App-links">
+            <a href="">
+              <div class="App-link">
+                PASKAA
+              </div>
+            </a>
+            <a href="">
+              <div class="App-link">
+                PASKAA
+              </div>
+            </a>
+            <a href="">
+              <div class="App-link">
+                PASKAA
+              </div>
+            </a>
+          </div>
         </header>
         <img src={pasi} className="App-riippumatto" alt="logo" />
         <h1 className="App-title">Pasi Hanhijärvi</h1>
