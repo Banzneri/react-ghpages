@@ -20,6 +20,10 @@
   background-color: aquamarine;
 }
 
+.App-header p {
+  float: left;
+}
+
 .App-title {
   font-size: 1.5em;
 }
