@@ -27,8 +27,8 @@
 
 .App-header p {
   float: left;
-  font-size: 2em;
-  font-family: 'Quicksand', sans-serif;
+	font-size: 2em;
+	font-family: 'Quicksand', sans-serif;
 }
 
 .App-title {
@@ -54,10 +54,11 @@
 	padding-bottom: 1vh;
 	outline: solid black 1px;
 	width: 7vw;
-	color: white;
+	color: black;
 	font-weight: bold;
 	box-sizing: border-box;
-	text-shadow: -1px 0 black, 0 1px black, 	1px 0 black, 0 -1px black;
+	
+	font-family: 'Quicksand', sans-serif;
 }
 
 a {
@@ -65,8 +66,8 @@ a {
 }
 
 .App-link:hover {
-	text-shadow: -2px 0 black, 0 2px black, 	2px 0 black, 0 -2px black;
-	outline: solid black 2px;
+	background-color: black;
+	color: white;
 }
 
 @keyframes App-logo-spin {
