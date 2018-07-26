@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import pasi from './riippumattokapea.png';
+import test from './test.jpg';
 import './App.css';
 import './Gameproject.js';
 import Gameproject from './Gameproject.js';
@@ -35,8 +36,8 @@ class App extends Component {
         <h1 className="App-title">Pasi Hanhijärvi</h1>
         <p className="App-intro">
         </p>
-        <Gameproject name="Super Sprocket" imgurl="./test.jpg"/>
-        <Gameproject name="Arcade Madness" imgurl="./test.jpg"/>
+        <Gameproject name="Super Sprocket" imgurl={test}/>
+        <Gameproject name="Arcade Madness" imgurl={test}/>
       </div>
     );
   }
