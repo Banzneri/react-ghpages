@@ -8,7 +8,7 @@ class Gameproject extends Component {
         <p>
           {this.props.name}
         </p>
-        <img src={this.props.imgurl} alt={this.props.name}/>
+        <img src={this.props.imgurl} alt="noimage"/>
       </div>
     );
   }
