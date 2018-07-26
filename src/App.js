@@ -35,8 +35,8 @@ class App extends Component {
         <h1 className="App-title">Pasi Hanhijärvi</h1>
         <p className="App-intro">
         </p>
-        <Gameproject name="Super Sprocket" imgurl=""/>
-        <Gameproject name="Arcade Madness" imgurl=""/>
+        <Gameproject name="Super Sprocket" imgurl="./test.jpg"/>
+        <Gameproject name="Arcade Madness" imgurl="./test.jpg"/>
       </div>
     );
   }
