@@ -1,9 +1,8 @@
 {
-  "main.css": "static/css/main.702ee48f.css",
-  "main.css.map": "static/css/main.702ee48f.css.map",
-  "main.js": "static/js/main.4a8c7895.js",
-  "main.js.map": "static/js/main.4a8c7895.js.map",
-  "static\\media\\logo.svg": "static/media/logo.ee7cd8ed.svg",
-  "static\\media\\riippumattokapea.png": "static/media/riippumattokapea.4dbe004c.png",
-  "static\\media\\test.jpg": "static/media/test.9df86c30.jpg"
+  "main.css": "static/css/main.66cd5f37.css",
+  "main.css.map": "static/css/main.66cd5f37.css.map",
+  "main.js": "static/js/main.c94d276e.js",
+  "main.js.map": "static/js/main.c94d276e.js.map",
+  "static/media/github.png": "static/media/github.cefc2023.png",
+  "static/media/riippumattokapea.png": "static/media/riippumattokapea.4dbe004c.png"
 }
