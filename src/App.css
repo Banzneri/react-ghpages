@@ -21,9 +21,15 @@
   object-fit: cover;
 }
 
+.App-riippumatto-pieni {
+	width:100%;
+	object-fit: cover;
+	display: none;
+}
+
 .App-header {
   max-width: 100%;
-  height: 100px;
+  height: 70px;
 	display: flex;
 	align-items: center; /* align vertical */
 	padding-left: 20px;
@@ -38,6 +44,10 @@
 
 .App-title {
   font-size: 1.5em;
+}
+
+.App-regulartext {
+	font-size: 24px;
 }
 
 .App-intro {
@@ -55,6 +65,7 @@
 	display: none;
 	flex-direction: column;
 	align-items: center;
+	margin-top: 30px;
 }
 
 .App-link {
@@ -78,7 +89,7 @@ a {
 }
 
 .App-gameproject {
-	padding: 10px;
+	padding: 0px;
 	max-width: 100%;
 }
 
@@ -108,15 +119,35 @@ a {
 }
 
 .App-titleSection {
-	padding-top: 60px;
-	padding-bottom: 30px;
+	padding-top: 40px;
+	padding-bottom: 0px;
+
+}
+
+.App-title {
+	font-size: 2em;
+	font-weight: bold;
 }
 
 .App-textSection {
-	padding-left: 15vw;
-	padding-right: 15vw;
-	text-align: justify;
-	align-items: center;
+	width: 50%;
+	margin: 0 auto;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.App-textarea {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.line {
+	width: 20%;
+	height: 1px;
+	background-color: black;	
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 .App-gameprojects {
@@ -132,6 +163,10 @@ a {
 	color: white;
 }
 
+#start {
+	text-align: justify;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -141,7 +176,7 @@ a {
   }
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 800px) {
 	.App-gameprojects {
 		grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 	}
@@ -149,11 +184,22 @@ a {
 	.App-link {
 		width: 100vw;
 		margin: 2px;
+		outline: none;
+		background-color: whitesmoke;
 	}
 
 	.App-textSection {
 		padding-left: 20px;
 		padding-right: 20px;
+		width: 90%;
+	}
+
+	.App-regulartext {
+		font-size: 18px;
+	}
+
+	.App-githublogo {
+		width: 25%;
 	}
 
 	.App-navbar-large {
@@ -162,6 +208,8 @@ a {
 
 	.App-navbar-small {
 		display: flex;
+		padding-bottom: 1px;
+		margin-bottom: 1px;
 	}
 
 	.App-header {
@@ -175,5 +223,14 @@ a {
 
 	.App-riippumatto {
 		display: none;
+	}
+
+	.App-riippumatto-pieni {
+		display: block;
+	}
+
+	#about {
+		padding-top: 0px;
+		padding-bottom: 0px;
 	}
 }

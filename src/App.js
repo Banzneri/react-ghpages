@@ -4,6 +4,13 @@ import './App.css';
 import './Gameproject.js';
 import Gameproject from './Gameproject.js';
 import TopLink from './TopLink.js';
+import Text from './Text.js';
+
+const about = 'A passionate software developer guru in the making.';
+const about2 = 'Currently Studying Business Information Systems in the Tampere University of Applied Sciences. ' +  
+              'Interested in new and old technologies, software and game development. Mostly with Java and C#.'
+const arcadeVideo = "https://www.youtube.com/embed/h9wl4sYZWZU";
+const githubAddress = "https://github.com/Banzneri";
 
 class App extends Component {
 
@@ -15,32 +22,31 @@ class App extends Component {
       
       <div className="App">
         <header className="App-header" id="myHeader">
-          <p> Pasi Hanhijärvi </p>
+          <p className="App-title"> Pasi Hanhijärvi </p>
           <div className="App-navbar-large">
-          <TopLink text="Github" url="https://github.com/Banzneri" />
-            <TopLink text="About" url="#about" />
-            <TopLink text="Projects" url="#projects" />
+            <a href={githubAddress} target="_blank"> <div class="App-link"> Github </div> </a>
+            <a href="#about"> <div class="App-link"> About </div> </a>
+            <a href="#projects"> <div class="App-link"> Projects </div> </a>
           </div>
         </header>
+        <img src={pasi} className="App-riippumatto-pieni" alt="logo"/>
         <div className="App-navbar-small">
-            <TopLink text="Github" url="https://github.com/Banzneri" />
-            <TopLink text="About" url="#about" />
-            <TopLink text="Projects" url="#projects" />
+            <a href={githubAddress} target="_blank"> <div class="App-link"> Github </div> </a>
+            <a href="#about"> <div class="App-link"> About </div> </a>
+            <a href="#projects"> <div class="App-link"> Projects </div> </a>
+            
         </div>
         <img src={pasi} className="App-riippumatto" alt="logo" />
-        <div className="App-titleSection" id="about">
-          <h1>About me</h1>
-        </div>
-        <div className="App-textSection">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-        </div>
-        <div className="App-titleSection" id="projects">
-          <h1>My projects</h1>
+        <div className="App-textarea">
+          <div id="about"></div>
+          <div className="line"></div>
+          <Text file ={about}></Text>
+          <div className="line"></div>
+          <Text file = {about2}></Text>
+          <div className="line"></div>
+          <div className="App-titleSection" id="projects">
+            <p className="App-title">Some of my work</p>
+          </div>
         </div>
         <div className="App-gameprojects">
           <Gameproject name="Super Sprocket" videoUrl="https://www.youtube.com/embed/h9wl4sYZWZU" 

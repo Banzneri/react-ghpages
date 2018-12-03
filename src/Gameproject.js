@@ -6,7 +6,7 @@ class Gameproject extends Component {
   render() {
     return (
       <div className="App-gameproject">
-        <h2> {this.props.name} </h2>
+        <p className="App-regulartext"> {this.props.name} </p>
         <div className="App-videoSmall">
           <iframe src={this.props.videoUrl} width="560" height="349" frameBorder="0" allowFullScreen></iframe>
         </div>

@@ -4,9 +4,7 @@ import './App.css';
 class TopLink extends Component {
     render() {
         return (
-            <a href={this.props.url}> 
-                <div class="App-link"> {this.props.text} </div> 
-            </a>
+            <a href={this.props.url}> <div className="App-link App-regulartext"> {this.props.text} </div> </a>
         );
     }
 }
