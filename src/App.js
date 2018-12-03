@@ -17,9 +17,9 @@ class App extends Component {
         <header className="App-header" id="myHeader">
           <p> Pasi Hanhijärvi </p>
           <div className="App-navbar-large">
-            <TopLink text="paskaa" url="" />
-            <TopLink text="paskaa" url="" />
-            <TopLink text="paskaa" url="" />
+            <TopLink text="Test1" url="" />
+            <TopLink text="Test2" url="" />
+            <TopLink text="Test3" url="" />
           </div>
         </header>
         <div className="App-navbar-small">
