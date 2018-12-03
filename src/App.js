@@ -17,18 +17,18 @@ class App extends Component {
         <header className="App-header" id="myHeader">
           <p> Pasi Hanhijärvi </p>
           <div className="App-navbar-large">
-            <TopLink text="Test1" url="" />
-            <TopLink text="Test2" url="" />
-            <TopLink text="Test3" url="" />
+          <TopLink text="Github" url="https://github.com/Banzneri" />
+            <TopLink text="About" url="#about" />
+            <TopLink text="Projects" url="#projects" />
           </div>
         </header>
         <div className="App-navbar-small">
-            <TopLink text="paskaa" url="" />
-            <TopLink text="paskaa" url="" />
-            <TopLink text="paskaa" url="" />
+            <TopLink text="Github" url="https://github.com/Banzneri" />
+            <TopLink text="About" url="#about" />
+            <TopLink text="Projects" url="#projects" />
         </div>
         <img src={pasi} className="App-riippumatto" alt="logo" />
-        <div className="App-titleSection">
+        <div className="App-titleSection" id="about">
           <h1>About me</h1>
         </div>
         <div className="App-textSection">
@@ -39,7 +39,7 @@ class App extends Component {
             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
         </div>
-        <div className="App-titleSection">
+        <div className="App-titleSection" id="projects">
           <h1>My projects</h1>
         </div>
         <div className="App-gameprojects">
