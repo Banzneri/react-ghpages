@@ -192,11 +192,12 @@ a {
 
 .App-footer {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+	grid-template-columns: 1fr 1fr;
 	grid-template-rows: auto;
+	height: 100%;
 }
 
-.App-footer li {
+.App-footer ul {
 	list-style: none;
 }
 
@@ -238,6 +239,10 @@ a {
 		grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 	}
 
+	.App-footer {
+		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	}
+
 	.App-link {
 		width: 100%;
 		margin: 2px;
@@ -266,6 +271,7 @@ a {
 
 	.App-navbar-small {
 		display: inline-block;
+		width: 99%;
 		padding-bottom: 1px;
 		margin-bottom: 1px;
 	}

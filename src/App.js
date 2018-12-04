@@ -63,7 +63,7 @@ class App extends Component {
         </div>
         <footer className="App-footer">
             <ul>
-              <p>pasi.hanhijarvi@gmail.com</p>
+            <a href="mailto:pasi.hanhijarvi@gmail.com"><p>pasi.hanhijarvi@gmail.com</p></a>
             </ul>
             <ul>
               <a href={githubAddress} target="_blank"><p>{githubAddress}</p></a>
