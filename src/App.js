@@ -62,7 +62,14 @@ class App extends Component {
           <Gameproject name="Misc projects" videoUrl="https://www.youtube.com/embed/h9wl4sYZWZU" 
                         repo=""/>
         </div>
-        
+        <footer className="App-footer">
+            <ul>
+              <p>pasi.hanhijarvi@gmail.com</p>
+            </ul>
+            <ul>
+              <a href={githubAddress} target="_blank"><p>github.com/Banzneri</p></a>
+            </ul>
+        </footer>
       </div>
     );
   }

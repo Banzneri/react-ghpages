@@ -11,6 +11,13 @@
 	margin: 0;
 }
 
+footer {
+	padding: 40px;
+	display: flex;
+	background-color: whitesmoke;
+	justify-content: center;
+}
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
@@ -105,6 +112,7 @@ a {
 	padding: 0px;
 	max-width: 100%;
 	background-color: white;
+	border: 1px solid black;
 }
 
 .App-gameproject a {
@@ -181,8 +189,35 @@ a {
 	margin-top: 10px;
 }
 
+.App-footer {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+	grid-template-rows: auto;
+}
+
+.App-footer li {
+	list-style: none;
+}
+
+.App-footer p {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.App-footer a {
+	text-decoration: none;
+	color: black;
+}
+
+.App-link:hover {
+	background-color: black;
+	color: white;
+}
+
 .gamename:hover {
-	background-color: whitesmoke;
+	background-color: black;
+	color: white;
 }
 
 #start {
