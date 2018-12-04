@@ -270,6 +270,7 @@ a {
 	.App-navbar-small {
 		display: inline-block;
 		width: 99%;
+		margin-top: 0;
 		padding-bottom: 1px;
 		margin-bottom: 1px;
 	}
@@ -298,5 +299,9 @@ a {
 	#about {
 		padding-top: 0px;
 		padding-bottom: 0px;
+	}
+
+	.App-titleSection {
+		padding-top: 0px;
 	}
 }

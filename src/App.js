@@ -39,14 +39,15 @@ class App extends Component {
         <div className="App-container">
             <div className="App-overlay"></div>
             <img src={pasi} className="App-riippumatto" alt="logo" />
+            <div id="about"></div>
         </div>
         <div className="App-textarea">
-          <div id="about"></div>
           <Text file ={about}></Text>
           <Line width="30%"></Line>
           <Text file = {about2}></Text>
           <Line width="30%"></Line>
-          <div className="App-titleSection" id="projects">
+          <div className="App-titleSection">
+            <div id="projects"></div>
             <p className="App-title">Some of my work</p>
           </div>
         </div>
