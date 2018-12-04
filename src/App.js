@@ -9,7 +9,7 @@ import {Line} from './Line.js';
 
 const about = 'A software development guru in the making.';
 const about2 = 'Currently Studying Business Information Systems in Tampere University of Applied Sciences, specializing in Software Development. ' +  
-              'Interested in a wide varriety of technologies, software and game development for both mobile and desktop, with an emphasis on Java and C#/Unity development.'
+              'Interested in a wide variety of technologies, software and game development for both mobile and desktop, with an emphasis on Java and C#/Unity development. ';
 const arcadeVideo = "https://www.youtube.com/embed/h9wl4sYZWZU";
 const githubAddress = "https://github.com/Banzneri";
 
@@ -55,7 +55,7 @@ class App extends Component {
                         repo="https://github.com/Banzneri/SpaceShooter5000"/>
           <Gameproject name="JavaFX" videoUrl="https://www.youtube.com/embed/6KR2lF-R8B4" 
                         repo="https://github.com/Banzneri/engine"/>
-          <Gameproject name="Misc projects" videoUrl="https://www.youtube.com/embed/h9wl4sYZWZU" 
+          <Gameproject name="Misc projects" videoUrl="" 
                         repo=""/>
         </div>
         <Line width="90%"></Line>
