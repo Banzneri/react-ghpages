@@ -10,11 +10,6 @@ class Gameproject extends Component {
         <div className="App-videoSmall">
           <iframe src={this.props.videoUrl} width="560" height="349" frameBorder="0" allowFullScreen></iframe>
         </div>
-        <a href={this.props.repo}>
-          <div className="App-title bold gamename">
-            <img src={githublogo} className="App-githublogo" alt=""/>
-          </div>
-        </a>
       </div>
     );
   }
