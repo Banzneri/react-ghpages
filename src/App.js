@@ -67,7 +67,7 @@ class App extends Component {
               <p>pasi.hanhijarvi@gmail.com</p>
             </ul>
             <ul>
-              <a href={githubAddress} target="_blank"><p>github.com/Banzneri</p></a>
+              <a href={githubAddress} target="_blank"><p>{githubAddress}</p></a>
             </ul>
         </footer>
       </div>
