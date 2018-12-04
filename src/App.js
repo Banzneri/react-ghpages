@@ -34,7 +34,6 @@ class App extends Component {
             <a href={githubAddress} target="_blank"> <div class="App-link"> Github </div> </a>
             <a href="#about"> <div class="App-link"> About </div> </a>
             <a href="#projects"> <div class="App-link"> Projects </div> </a>
-            
         </div>
         <div className="App-container">
             <div className="App-overlay"></div>

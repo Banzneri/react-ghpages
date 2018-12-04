@@ -12,10 +12,10 @@
 }
 
 footer {
-	padding: 40px;
 	display: flex;
 	background-color: whitesmoke;
 	justify-content: center;
+	width: 100%;
 }
 
 .App-logo {
@@ -82,6 +82,7 @@ footer {
 }
 
 .App-navbar-small {
+	width: 100%;
 	display: none;
 	flex-direction: column;
 	align-items: center;
@@ -192,7 +193,6 @@ a {
 .App-footer {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-	grid-gap: 20px;
 	grid-template-rows: auto;
 }
 
@@ -239,7 +239,7 @@ a {
 	}
 
 	.App-link {
-		width: 100vw;
+		width: 100%;
 		margin: 2px;
 		outline: none;
 		background-color: whitesmoke;
@@ -265,7 +265,7 @@ a {
 	}
 
 	.App-navbar-small {
-		display: flex;
+		display: inline-block;
 		padding-bottom: 1px;
 		margin-bottom: 1px;
 	}
