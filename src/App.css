@@ -27,6 +27,10 @@
 	display: none;
 }
 
+.bold {
+	font-weight: bold;
+}
+
 .App-overlay {
 	position: absolute;
 	top: 0;
@@ -100,6 +104,12 @@ a {
 .App-gameproject {
 	padding: 0px;
 	max-width: 100%;
+	background-color: whitesmoke;
+}
+
+.App-gameproject a {
+	color: black;
+	text-decoration: none;
 }
 
 .App-videoSmall {
@@ -121,10 +131,6 @@ a {
 	margin-top: 5px;
 	width: 15%;
 	border-radius: 25px;
-}
-
-.App-githublogo:hover {
-	background-color: lightgray;
 }
 
 .App-titleSection {
@@ -175,9 +181,8 @@ a {
 	margin-top: 10px;
 }
 
-.App-link:hover {
-	background-color: black;
-	color: white;
+.gamename:hover {
+	background-color: white;
 }
 
 #start {

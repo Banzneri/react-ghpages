@@ -7,7 +7,7 @@ import TopLink from './TopLink.js';
 import Text from './Text.js';
 
 const about = 'A passionate software development guru in the making.';
-const about2 = 'Currently Studying Business Information Systems in the Tampere University of Applied Sciences. ' +  
+const about2 = 'Currently Studying Business Information Systems in the Tampere University of Applied Sciences, specializing in Software Development. ' +  
               'Interested in new and old technologies, software and game development. Mostly with Java and C#.'
 const arcadeVideo = "https://www.youtube.com/embed/h9wl4sYZWZU";
 const githubAddress = "https://github.com/Banzneri";
