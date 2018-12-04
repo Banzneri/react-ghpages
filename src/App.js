@@ -7,20 +7,15 @@ import TopLink from './TopLink.js';
 import Text from './Text.js';
 import {Line} from './Line.js';
 
-const about = 'A passionate software development guru in the making.';
-const about2 = 'Currently Studying Business Information Systems in the Tampere University of Applied Sciences, specializing in Software Development. ' +  
-              'Interested in new and old technologies, software and game development. Mostly with Java and C#.'
+const about = 'A software development guru in the making.';
+const about2 = 'Currently Studying Business Information Systems in Tampere University of Applied Sciences, specializing in Software Development. ' +  
+              'Interested in a wide varriety of technologies, software and game development for both mobile and desktop, with an emphasis on Java and C#/Unity development.'
 const arcadeVideo = "https://www.youtube.com/embed/h9wl4sYZWZU";
 const githubAddress = "https://github.com/Banzneri";
 
 class App extends Component {
-
-  handleLinkCollapse() {
-
-  }
   render() {
     return (
-      
       <div className="App">
         <header className="App-header" id="myHeader">
           <p className="App-title"> Pasi Hanhijärvi </p>
