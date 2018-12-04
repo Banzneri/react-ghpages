@@ -5,7 +5,11 @@ class Title extends Component {
 
     render() {
         return (
-            <div></div>
+            <div className="App-textSection">
+                <p>
+                    {this.props.file}
+                </p>
+            </div>
         );
     }
 }

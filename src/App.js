@@ -6,7 +6,7 @@ import Gameproject from './Gameproject.js';
 import TopLink from './TopLink.js';
 import Text from './Text.js';
 
-const about = 'A passionate software developer guru in the making.';
+const about = 'A passionate software development guru in the making.';
 const about2 = 'Currently Studying Business Information Systems in the Tampere University of Applied Sciences. ' +  
               'Interested in new and old technologies, software and game development. Mostly with Java and C#.'
 const arcadeVideo = "https://www.youtube.com/embed/h9wl4sYZWZU";
@@ -36,10 +36,12 @@ class App extends Component {
             <a href="#projects"> <div class="App-link"> Projects </div> </a>
             
         </div>
-        <img src={pasi} className="App-riippumatto" alt="logo" />
+        <div className="App-container">
+            <div className="App-overlay"></div>
+            <img src={pasi} className="App-riippumatto" alt="logo" />
+        </div>
         <div className="App-textarea">
           <div id="about"></div>
-          <div className="line"></div>
           <Text file ={about}></Text>
           <div className="line"></div>
           <Text file = {about2}></Text>
