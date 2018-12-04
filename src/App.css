@@ -11,13 +11,6 @@
 	margin: 0;
 }
 
-footer {
-	display: flex;
-	background-color: whitesmoke;
-	justify-content: center;
-	width: 100%;
-}
-
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
@@ -191,14 +184,12 @@ a {
 }
 
 .App-footer {
+	padding-bottom: 30px;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: auto;
-	height: 100%;
-}
-
-.App-footer ul {
-	list-style: none;
+	justify-content: center;
+	width: 100%;
 }
 
 .App-footer p {
@@ -206,9 +197,16 @@ a {
 	font-weight: bold;
 }
 
+.App-footer line {
+	width: 70%;
+}
+
 .App-footer a {
-	text-decoration: none;
 	color: black;
+}
+
+.App-footer a:hover {
+	text-decoration: underline;
 }
 
 .App-link:hover {

@@ -5,6 +5,7 @@ import './Gameproject.js';
 import Gameproject from './Gameproject.js';
 import TopLink from './TopLink.js';
 import Text from './Text.js';
+import {Line} from './Line.js';
 
 const about = 'A passionate software development guru in the making.';
 const about2 = 'Currently Studying Business Information Systems in the Tampere University of Applied Sciences, specializing in Software Development. ' +  
@@ -42,9 +43,9 @@ class App extends Component {
         <div className="App-textarea">
           <div id="about"></div>
           <Text file ={about}></Text>
-          <div className="line"></div>
+          <Line width="30%"></Line>
           <Text file = {about2}></Text>
-          <div className="line"></div>
+          <Line width="30%"></Line>
           <div className="App-titleSection" id="projects">
             <p className="App-title">Some of my work</p>
           </div>
@@ -61,13 +62,10 @@ class App extends Component {
           <Gameproject name="Misc projects" videoUrl="https://www.youtube.com/embed/h9wl4sYZWZU" 
                         repo=""/>
         </div>
+        <Line width="90%"></Line>
         <footer className="App-footer">
-            <ul>
-            <a href="mailto:pasi.hanhijarvi@gmail.com"><p>pasi.hanhijarvi@gmail.com</p></a>
-            </ul>
-            <ul>
+              <a href="mailto:pasi.hanhijarvi@gmail.com"><p>pasi.hanhijarvi@gmail.com</p></a>
               <a href={githubAddress} target="_blank"><p>{githubAddress}</p></a>
-            </ul>
         </footer>
       </div>
     );
